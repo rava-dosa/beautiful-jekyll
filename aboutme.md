@@ -1,16 +1,17 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Who am I ?
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Apoorva Kumar. I am pursuing a Btech in Computer Science and Engineering from Indian Institute of Kharagpur, Some principles and Qualities:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
+- I never forget my friends, ever.
+- I am blessed and flawed in a magnificent way, and they cater to each other.
+- Sometime I think, I am just goddamn creative &#128521;
 What else do you need?
 
 ### my history
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+This blog and my CV will tell a lot about my technological prowess.
+- [MY CV](https://drive.google.com/drive/folders/0B71BykRl_rcAUTFiUUxzWEFwdWc)
