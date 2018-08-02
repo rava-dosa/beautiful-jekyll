@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to install tensorflow gpu without shitting on your computer ?
+title: How to install tensorflow-gpu without shitting on your computer ?
 subtitle: Sorry for the word "Sh******"
 tags: [tutorial, software, installation]
 ---
@@ -100,7 +100,7 @@ Things have changed a lot.Now on new ubuntu 18.04 you don't need to do all this,
 6. sudo reboot
 7. wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
 7.1. bash Anaconda3-5.2.0-Linux-x86_64.sh  
-**when asked about adding path do it.**  
+**While installation,when asked about adding path,say yes.**  
 8. source ~/.bashrc
 9. conda update conda
 10. conda update anaconda
@@ -109,7 +109,7 @@ Things have changed a lot.Now on new ubuntu 18.04 you don't need to do all this,
 13. conda create --name tf-gpu
 14. source activate tf-gpu
 15. conda install tensorflow-gpu  
-`I tried this and it worked. So now if you want to check if it's working or not:`
+`I tried this and it worked. So now if you want to check if gpu device is recognized or not:`
 16. python
 16.1. import tensorflow as tf
 ```
