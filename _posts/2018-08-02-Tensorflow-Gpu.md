@@ -14,11 +14,12 @@ In a very few[**sarcastic laugh**] steps I was able to install it.
 3. sudo apt-get update
 4. sudo gedit /etc/modprobe.d/blacklist-nouveau.conf
 **paste** 
-``` blacklist nouveau
-    blacklist lbm-nouveau
-    options nouveau modeset=0
-    alias nouveau off
-    alias lbm-nouveau off
+``` 
+blacklist nouveau
+blacklist lbm-nouveau
+options nouveau modeset=0
+alias nouveau off
+alias lbm-nouveau off
 ```
 5. echo options nouveau modeset=0 | sudo tee -a /etc/modprobe.d/nouveau-kms.conf
 6. sudo update-initramfs -u
