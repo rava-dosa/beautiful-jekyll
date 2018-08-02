@@ -108,8 +108,8 @@ Things have changed a lot.Now on new ubuntu 18.04 you don't need to do all this,
 12. conda update --all
 13. conda create --name tf-gpu
 14. source activate tf-gpu
-15. conda install tensorflow-gpu
-I tried this and it worked. So now if you want to check if it's working or not:
+15. conda install tensorflow-gpu  
+`I tried this and it worked. So now if you want to check if it's working or not:`
 16. python
 16.1. import tensorflow as tf
 ```
