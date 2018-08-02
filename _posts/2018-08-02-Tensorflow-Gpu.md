@@ -21,7 +21,7 @@ options nouveau modeset=0
 alias nouveau off
 alias lbm-nouveau off
 ```
-5. ** echo options nouveau modeset=0 | sudo tee -a /etc/modprobe.d/nouveau-kms.conf **
+5. **echo options nouveau modeset=0 | sudo tee -a /etc/modprobe.d/nouveau-kms.conf**
 6. sudo update-initramfs -u
 7. sudo apt-get update
 8. sudo apt-get upgrade -y
@@ -91,7 +91,7 @@ sudo ./cuda_8_linux.run
 
 ### But as time has passed by..............
 Things have changed a lot.Now on new ubuntu 18.04 you don't need to do all this, Things have become relatively easy:  
-(** Even though I installed conda packages first **)  
+(**Even though I installed conda packages first**)  
 1. sudo apt-get --purge remove nvidia-*
 2. sudo apt-get autoremove
 3. sudo add-apt-repository ppa:graphics-drivers/ppa
@@ -100,7 +100,7 @@ Things have changed a lot.Now on new ubuntu 18.04 you don't need to do all this,
 6. sudo reboot
 7. wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
 7.1. bash Anaconda3-5.2.0-Linux-x86_64.sh  
-** when asked about adding path do it. **  
+**when asked about adding path do it.**  
 8. source ~/.bashrc
 9. conda update conda
 10. conda update anaconda
