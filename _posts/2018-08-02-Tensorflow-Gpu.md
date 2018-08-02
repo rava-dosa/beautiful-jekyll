@@ -76,10 +76,10 @@ sudo ./cuda_8_linux.run
 28. cat /proc/driver/nvidia/version
 29. echo 'export PATH=/usr/local/cuda/bin:$PATH' >> ~/.bashrc
 30. sudo apt-get install python-numpy python-dev python-pip python-wheel
-######Download Bazel
+###### Download Bazel
 31. chmod +x bazel-0.5.2-installer-linux-x86_64.sh
 33. ./bazel-0.5.2-installer-linux-x86_64.sh --user
-######paste in bashrc
+###### paste in bashrc
 34. export PATH="$PATH:$HOME/bin"
 ###### https://www.anaconda.com/download/ install anaconda
 ###### Add these two lines in gedit ~/.bashrc
@@ -121,6 +121,6 @@ with tf.Session() as sess:
     print (sess.run(c))
 ```
 17. That's it you are done with installation.
-18. [Ref](https://gist.github.com/rava-dosa/75a04514ad6864b1eb0eee6c9821143a)
+18. [Reference](https://gist.github.com/rava-dosa/75a04514ad6864b1eb0eee6c9821143a)
 
 
