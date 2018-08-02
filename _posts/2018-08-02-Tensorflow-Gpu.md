@@ -121,6 +121,6 @@ with tf.Session() as sess:
     print (sess.run(c))
 ```
 17. That's it you are done with installation.
-18. Ref[https://gist.github.com/rava-dosa/75a04514ad6864b1eb0eee6c9821143a]
+18. [Ref](https://gist.github.com/rava-dosa/75a04514ad6864b1eb0eee6c9821143a)
 
 
