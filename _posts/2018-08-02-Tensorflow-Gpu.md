@@ -21,7 +21,7 @@ options nouveau modeset=0
 alias nouveau off
 alias lbm-nouveau off
 ```
-5. **echo options nouveau modeset=0 | sudo tee -a /etc/modprobe.d/nouveau-kms.conf**
+5. ** echo options nouveau modeset=0 | sudo tee -a /etc/modprobe.d/nouveau-kms.conf **
 6. sudo update-initramfs -u
 7. sudo apt-get update
 8. sudo apt-get upgrade -y
@@ -112,12 +112,13 @@ now on ubuntu 18.04 you don't need to do all this:
 I tried this and it worked. So now if you want to check if it's working or not:
 16. python
 16.1. import tensorflow as tf
-```with tf.device('/gpu:0'):
+```
+with tf.device('/gpu:0'):
     a = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[2, 3], name='a')
     b = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[3, 2], name='b')  
     c = tf.matmul(a, b)  
-    with tf.Session() as sess:  
-        print (sess.run(c))
+with tf.Session() as sess:  
+    print (sess.run(c))
 ```
 17. That's it you are done with installation.
 
