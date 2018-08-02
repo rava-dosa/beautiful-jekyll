@@ -90,8 +90,8 @@ sudo ./cuda_8_linux.run
 39. pip install --ignore-installed --upgrade \ https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.0.0-cp27-none-linux_x86_64.whl
 
 ### But as time has passed by..............
-Things have changed a lot.(Even though I installed conda packages first)
-now on ubuntu 18.04 you don't need to do all this:
+Things have changed a lot.Now on new ubuntu 18.04 you don't need to do all this, Things have become relatively easy:  
+(** Even though I installed conda packages first **)  
 1. sudo apt-get --purge remove nvidia-*
 2. sudo apt-get autoremove
 3. sudo add-apt-repository ppa:graphics-drivers/ppa
@@ -99,8 +99,8 @@ now on ubuntu 18.04 you don't need to do all this:
 5. sudo apt-get install nvidia-375
 6. sudo reboot
 7. wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
-7.1. bash Anaconda3-5.2.0-Linux-x86_64.sh 
-// when asked about adding path do it.
+7.1. bash Anaconda3-5.2.0-Linux-x86_64.sh  
+** when asked about adding path do it. **  
 8. source ~/.bashrc
 9. conda update conda
 10. conda update anaconda
@@ -121,5 +121,6 @@ with tf.Session() as sess:
     print (sess.run(c))
 ```
 17. That's it you are done with installation.
+18. Ref[https://gist.github.com/rava-dosa/75a04514ad6864b1eb0eee6c9821143a]
 
 
