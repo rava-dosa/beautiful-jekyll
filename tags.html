@@ -6,8 +6,7 @@ title: 'Tag Index'
 {% for tag in site.tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
-
-<h2 id="tag" class="linked-section">
+<h2 id="#{{t}}" class="linked-section">
         <i class="fa fa-tag" aria-hidden="true"></i>
         &nbsp;{{ t | downcase }}&nbsp;({{site.tags[tag].size}})
 <ul>
@@ -27,4 +26,5 @@ title: 'Tag Index'
 {% endfor %}
 <div id="full-tags-list">
 </ul>
+<a name='{{t}}'></a>
 {% endfor %}
