@@ -29,13 +29,14 @@ void cleanup_module(void)
 }  
 
 ```
+Kernel modules must have at least two functions: a "start" (initialization) function called     init_module() which is called when the module is insmoded into the kernel, and an "end" (cleanup) function called cleanup_module() which is called just before it is rmmoded.  
 To compile this code you can use [makefile](https://github.com/rava-dosa/linux/tree/master/Linux-Hello%20world) provided in this repo with proper naming as it is in the repository.  
 If you have done everything right till date then try
 ```
 insmod ./hello-1.ko
 ```
-Now you can check hello world being printed in /var/log/kern.log.  
-To check do cat /var/log/kern.log.  
+Now you can check hello world being printed in **/var/log/kern.log**.  
+To check do **cat /var/log/kern.log**.  
 That's all folks.
 
 
