@@ -14,4 +14,4 @@ What else do you need?
 ### my history
 
 This blog and my CV will tell a lot about my technological prowess.
-- [MY CV](https://drive.google.com/file/d/1iT0mxeMdVVE-6SYPjjJYry6zc_IWMoK3/view?usp=sharing)
+- [MY CV](https://drive.google.com/file/d/1BbOlokwOTp9_BSzg9QVtY2jKYsHbHGvF/view)
