@@ -72,29 +72,23 @@ if __name__ == "__main__":
 
 timing an script
 
-'''
-
+```
 time -p python script.py
-
-'''
+```
 
 using cprofile
 
-'''
-
+```
 python -m cProfile -s cumulative script.py
-
-'''
+```
 
 profiling memory
 
-'''
-
+```
 pip install memory_profiler
 pip install psutil
 python -m memory_profiler script.py
-
-'''
+```
 
 there is also one tool called guppy. And it's a really good library.
 
