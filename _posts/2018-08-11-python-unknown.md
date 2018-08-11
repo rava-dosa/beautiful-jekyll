@@ -12,7 +12,7 @@ Some notable mention wrt linux:
 * Cpython -> CPython is the original Python implementation
 * PyPy -> A fast python implementation with a JIT compiler
 * Jython -> Python running on the Java Virtual Machine
-* Stackless -> Branch of CPython supporting [microthreads](https://en.wikipedia.org/wiki/Microthread)
+* Stackless -> Branch of CPython supporting [microthreads](https://en.wikipedia.org/wiki/Microthread) . Seems similar to go programming language. 
 
 ### Profiling and optimizing python
 Timing function
