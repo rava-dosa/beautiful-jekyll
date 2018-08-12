@@ -107,7 +107,9 @@ b = {3: 30, 4: 40, 2:200}
 m1 = collections.ChainMap(a, b)
 m2 = collections.ChainMap(b, a)
 print(m1[2],end=" ")
+# it will print 20
 print(m2[2],end="\n")
+# it will print 200
 print(list(m1.keys()))
 print(list(m1.values()))
 for k, v in m1.items():
