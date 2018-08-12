@@ -4,7 +4,8 @@ title: About me
 subtitle: Who am I ?
 ---
 
-My name is Apoorva Kumar. I am pursuing a Btech in Computer Science and Engineering from Indian Institute of Kharagpur, Some principles and Qualities:
+My name is Apoorva Kumar. I am pursuing Btech in Computer Science and Engineering from Indian Institute of Kharagpur. I am in my third year.  
+Some principles and Qualities:
 
 - I never forget my friends, ever.
 - I am blessed and flawed in magnificent ways, and they cater to each other.
