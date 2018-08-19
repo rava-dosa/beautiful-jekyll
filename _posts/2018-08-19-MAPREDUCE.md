@@ -160,8 +160,8 @@ In some applications, component tasks need to create and/or write to side-files,
 
 #### Distributed Cache
 * DistributedCache distributes application-specific, large, read-only files efficiently.
-* Applications specify the files to be cached via urls (hdfs://) in the Job. The DistributedCache assumes that the files specified via hdfs:// urls are already present on the FileSystem.
-* The files/archives can be distributed by setting the property mapreduce.job.cache.{files or archives}. If more than one file/archive has to be distributed, they can be added as comma separated paths. The properties can also be set by APIs Job.addCacheFile(URI)/ Job.addCacheArchive(URI) and Job.setCacheFiles(URI[])/ Job.setCacheArchives(URI[]) where URI is of the form hdfs://host:port/absolute-path#link-name. 
+* Applications specify the files to be cached via urls (**hdfs://**) in the Job. The DistributedCache assumes that the files specified via **hdfs:// urls** are already present on the FileSystem.
+* The files/archives can be distributed by setting the property mapreduce.job.cache.{files or archives}. If more than one file/archive has to be distributed, they can be added as comma separated paths. The properties can also be set by APIs Job.addCacheFile(URI)/ Job.addCacheArchive(URI) and **Job.setCacheFiles(URI[])/ Job.setCacheArchives(URI[])** where URI is of the form **hdfs://host:port/absolute-path#link-name**. 
 * In Streaming, the files can be distributed through command line option -cacheFile/-cacheArchive.
 
 #### Profiling
