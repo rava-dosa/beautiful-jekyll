@@ -172,5 +172,10 @@ In some applications, component tasks need to create and/or write to side-files,
 The MapReduce framework provides a facility to run user-provided scripts for debugging. 
 * The user needs to use DistributedCache to distribute and symlink to the script file.
 * Set values for the properties mapreduce.map.debug.script and mapreduce.reduce.debug.script, for debugging map and reduce tasks respectively. These properties can also be set by using APIs Configuration.set(MRJobConfig.MAP_DEBUG_SCRIPT, String) and Configuration.set(MRJobConfig.REDUCE_DEBUG_SCRIPT, String).
+
+### Note
+* You can run python and c code as job in hadoop as well. 
+* There are go wrapper as well for hadoop.
+
 # That's all folks.
 
