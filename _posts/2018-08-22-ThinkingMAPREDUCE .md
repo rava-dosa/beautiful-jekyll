@@ -14,6 +14,12 @@ As per however small my perspective is the I think writing mapper and reducer is
 
 ### Mapper and reducer
 I thought I will write this individually but it got included above. 
+### When you should not use map reduce ?
+* When you have data whose processing requires use of previous data them map-reduce algorithm might not be the best choice.The memory model is SIMD(Single instruction multiple data.).
+* Graph processing
+* If synchronization is required in shared data(that is changing common variables).  
+Now here spark and apache giraph comes to scene.
+
 ### Note
-Later I realised that this methodology in some case might not work with data streaming and online algorithms.
+Later I realised that this methodology in some case might not work with data streaming and online algorithms. 
 # That's all folks.
