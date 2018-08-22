@@ -14,5 +14,6 @@ As per however small my perspective is the I think writing mapper and reducer is
 
 ### Mapper and reducer
 I thought I will write this individually but it got included above. 
-
+### Note
+Later I realised that this methodology in some case might not work with data streaming and online algorithms.
 # That's all folks.
