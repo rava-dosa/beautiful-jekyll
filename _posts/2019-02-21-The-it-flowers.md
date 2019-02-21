@@ -44,7 +44,11 @@ Things start to change,
 And world never remains same.  
   
 Both the 'it' and freedom flowers reinvented,  
-It flowers became the red rose,  
+'It' flowers became the red rose,  
 Freedom flowers became the yellow one.  
+
+### What I wanted to say ?
+
+Loosely I am touching on friendship(freedom, through "yellow rose"), freedom, codependence, and love(jewellery, adored, but occupies a lot of headspace, through "red rose"). This is written so that you don't go haywire with what the poem implies. 
 
 ### That's all folks.
