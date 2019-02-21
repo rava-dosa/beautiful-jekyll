@@ -31,7 +31,7 @@ When you don't you die for it.
 Freedom flowers were an outcast,  
 In the group of it flower,  
 The it flowers, the wanted to be adored,  
-The wanted to be "the" jewellery.  
+They wanted to be "the" jewellery.  
   
 Loneliness started getting freedom flowers,  
 They wanted to be loved, you know deeply,  
