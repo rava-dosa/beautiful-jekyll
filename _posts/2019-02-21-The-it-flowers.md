@@ -40,7 +40,7 @@ As they were immobile.
 
 Loneliness is a great thing,  
 People introspect and invent,  
-Things start changing,  
+Things start to change,  
 And world never remains same.  
   
 Both the it and freedom flowers reinvented,  
