@@ -1,0 +1,50 @@
+---
+layout: post
+title: The it flowers
+subtitle: 
+tags: [poem]
+---
+
+
+### The it flowers
+
+There they stand, among the other flowers,  
+Not lonely, Not Sad, Just plain Emptiness,  
+Adventurers loved the prohibited flowers,  
+By their force of habit to bask in glory of unknown.  
+  
+The it flowers, they wanted what others had,  
+Some it's wanted to experience the subtle human touch,  
+Some it's wanted to be the part of human celebrations,  
+But Nobody wanted the it flower for what they were.  
+  
+Some it's were happy with there freedom,  
+They were lonely but happy,  
+Some days were gloriously dark,  
+Some days were miraculously bright.  
+  
+They were known as the freedom flowers,  
+They said, "Freedom is a tough thing",  
+When you have it you don't want it,  
+When you don't you die for it.  
+  
+Freedom flowers were an outcast,  
+In the group of it flower,  
+The it flowers, the wanted to be adored,  
+The wanted to be "the" jewellery.  
+  
+Loneliness started getting freedom flowers,  
+They wanted to be loved, you know deeply,  
+But they couldn't do anything about it,  
+As they were immobile.  
+
+Loneliness is a great thing,  
+People introspect and invent,  
+Things start changing,  
+And world never remains same.  
+  
+Both the it and freedom flowers reinvented,  
+It flowers became the red rose,  
+Freedom flowers became the yellow one.  
+
+### That's all folks.
