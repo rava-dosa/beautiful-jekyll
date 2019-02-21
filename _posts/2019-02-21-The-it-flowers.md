@@ -13,7 +13,7 @@ Not lonely, Not Sad, Just plain Emptiness,
 Adventurers loved the prohibited flowers,  
 By their force of habit to bask in glory of unknown.  
   
-The it flowers, they wanted what others had,  
+The 'it' flowers, they wanted what others had,  
 Some 'it' wanted to experience the subtle human touch,  
 Some 'it' wanted to be the part of human celebrations,  
 But Nobody wanted the it flower for what they were.  
