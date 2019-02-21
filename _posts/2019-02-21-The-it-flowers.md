@@ -14,23 +14,23 @@ Adventurers loved the prohibited flowers,
 By their force of habit to bask in glory of unknown.  
   
 The it flowers, they wanted what others had,  
-Some it's wanted to experience the subtle human touch,  
-Some it's wanted to be the part of human celebrations,  
+Some 'it' wanted to experience the subtle human touch,  
+Some 'it' wanted to be the part of human celebrations,  
 But Nobody wanted the it flower for what they were.  
   
-Some it's were happy with there freedom,  
+Some 'it' were happy with there freedom,  
 They were lonely but happy,  
 Some days were gloriously dark,  
 Some days were miraculously bright.  
   
-They were known as the freedom flowers,  
+Those 'it' were known as the freedom flowers,  
 They said, "Freedom is a tough thing",  
 When you have it you don't want it,  
 When you don't you die for it.  
   
 Freedom flowers were an outcast,  
-In the group of it flower,  
-The it flowers, the wanted to be adored,  
+In the group of 'it' flower,  
+The 'it' flowers, the wanted to be adored,  
 They wanted to be "the" jewellery.  
   
 Loneliness started getting freedom flowers,  
@@ -43,7 +43,7 @@ People introspect and invent,
 Things start to change,  
 And world never remains same.  
   
-Both the it and freedom flowers reinvented,  
+Both the 'it' and freedom flowers reinvented,  
 It flowers became the red rose,  
 Freedom flowers became the yellow one.  
 
