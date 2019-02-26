@@ -9,7 +9,7 @@ tags: [C, gcc]
 1. What is Metaprogramming ?
 2. What is generic Programming ?
 3. Decorating function using macros
-4. # and ## operator in C
+4. '#' and '##' operator in C
 5. Variadic
 6. Variadic macro
 7. Alternative to ## operator
