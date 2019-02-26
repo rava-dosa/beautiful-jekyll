@@ -101,7 +101,7 @@ int main (void)
   return 0;
 }
 ```
-Above example is taken from [gnu](http://www.gnu.org/software/libc/manual/html_node/Variadic-Example.html)
+Above example is taken from [gnu](http://www.gnu.org/software/libc/manual/html_node/Variadic-Example.html).   
 Variadic helps in taking multiple arguments, you can also take arguments of different type.
 
 ```c
