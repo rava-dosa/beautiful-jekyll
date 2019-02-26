@@ -205,7 +205,7 @@ int main(){
 	IIF(A())(true, false) 
 }
 ```
-[Ref](https://stackoverflow.com/questions/11632219/c-preprocessor-macro-specialisation-based-on-an-argument)
+[Ref](https://stackoverflow.com/questions/11632219/c-preprocessor-macro-specialisation-based-on-an-argument)  
 [More-Depth](https://github.com/pfultz2/Cloak/wiki/C-Preprocessor-tricks,-tips,-and-idioms)
 
 ### Generic
