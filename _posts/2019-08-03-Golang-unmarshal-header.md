@@ -14,13 +14,14 @@ tags: [golang]
 ### Benefit of this pattern.
 You have to just define struct and tags, and pass the pointer of struct to getheader function. then getheader function will automatically, fill the struct. So the benefit of this pattern is that, for different api's you might be sending different headers, and you might want to acess different headers, so instead of writing code in the router for each of these, by doing header.get, what you can do is call this function instead. This makes the code cleaner, fewer lines of code in each router, and gives more structure to the code as you can know which headers you are accessing in a particuar file or router.
 
+In golang you can add tags for vaidating struct further reducing line of codes you have to add. So basically unmarshalling of http headers follows golang pattern of writing code as well.
 ### How it works ?
 This is how our struct looks like.
 
 ```go
 
 type Register_Header struct{
-	Method string `header:"x-api-key"`
+	Method string `header:"x-api-key" validate:"len=10"`
 	Agent string `header:"User-Agent"`
 }
 ```
