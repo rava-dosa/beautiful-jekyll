@@ -29,7 +29,7 @@ type Register_Header struct{
 ```go
 func GetHeader(r *http.Request,data interface{}){
 	//ValueOf returns a new Value initialized to the concrete value stored in the interface i.
-	//.elem depointers
+	//.elem dereference
 	val:=reflect.ValueOf(data).Elem()
 	//TypeOf returns the reflection Type that represents the dynamic type of interface i.
 	//basically it is used to access the metadata of variables inside struct.
