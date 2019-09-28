@@ -105,9 +105,8 @@ What I really liked about openfaas was how they package their function. There is
 Openfaas package their application in docker. In openwhisk there are already a predefined runtime, but if you want a different runtime you can define blackbox docker-actions, otherwise you have to write a manifest. In aws serverless you have to package them as zip. In open faas you can add extra dependency in an intuitve environment friendly way. Even writing function is really easy. So you can make a build job on your devops server which pushes your created docker image to your private docker registry. Some openfaas cli commands [references](https://github.com/openfaas/faas-cli#run-the-cli)
 
 ### Kubernetes architecture.
-This part of the blog is meant as a note to self rather than a tutorial. All credits to kelseyhightower because I am copying straightaway. [Ref](https://github.com/kelseyhightower/kubernetes-the-hard-way)
+This part of the blog is meant as a note to self rather than a tutorial.
 
-#### Different components in Kubernetes.
 #### K8s
 [Ref](https://x-team.com/blog/introduction-kubernetes-architecture/)  
 There are 8 feature which kubernetes promises to fulfil:-
@@ -139,6 +138,8 @@ There are 8 feature which kubernetes promises to fulfil:-
 Pod conditions
 
 #### Kubernetes the hard way.
+All credits to kelseyhightower because I am copying straightaway. [Ref](https://github.com/kelseyhightower/kubernetes-the-hard-way)
+
 ##### Step 1
 
 1. Provision a subnet with an ip-address range large enough to assign a private IP address to each node in the Kubernetes cluster.
