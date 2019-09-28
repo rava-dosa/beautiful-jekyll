@@ -11,7 +11,7 @@ tags: [devops, serverless, openfaas, kubernetes, devops, aws, api-gateway, softw
 3. Setting up openfaas with Kubernetes.
 4. Openfaas vs Openwhisk
 5. Kubernetes architecture(K8s).
-6. Openfaas.
+6. Openfaas architecture.
 7. Kubectl
 8. Kubeadm
 9. Kops
@@ -102,7 +102,7 @@ Checkout their lab on how to features available in openfaas. [lab](https://githu
 What I really liked about openfaas was how they package their function. There is no need to download runtime as in Openwhisk. Even setting up openwhisk is tough. I have doubts regarding how much it is being maintained. Openfaas ran at the first instance. No debugging required. 
 
 #### How do Openfaas package it's application ?
-Openfaas package their application in docker. In openwhisk there are already a predefined runtime, but if you want a different runtime you can define blackbox docker-actions, otherwise you have to write a manifest. In aws serverless you have to package them as zip. You can add extra dependency in an intuitve environment friendly way. So you can make a build job on your devops server which pushes your created docker image to your private docker registry. Some openfaas cli [references](https://github.com/openfaas/faas-cli#run-the-cli)
+Openfaas package their application in docker. In openwhisk there are already a predefined runtime, but if you want a different runtime you can define blackbox docker-actions, otherwise you have to write a manifest. In aws serverless you have to package them as zip. In open faas you can add extra dependency in an intuitve environment friendly way. Even writing function is really easy. So you can make a build job on your devops server which pushes your created docker image to your private docker registry. Some openfaas cli commands [references](https://github.com/openfaas/faas-cli#run-the-cli)
 
 ### Kubernetes architecture.
 This part of the blog is meant as a note to self rather than a tutorial. All credits to kelseyhightower because I am copying straightaway. [Ref](https://github.com/kelseyhightower/kubernetes-the-hard-way)
