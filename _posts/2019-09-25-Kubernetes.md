@@ -109,7 +109,7 @@ This part of the blog is meant as a note to self rather than a tutorial. All cre
 
 #### Different components in Kubernetes.
 #### K8s
-[Ref](https://x-team.com/blog/introduction-kubernetes-architecture/)
+[Ref](https://x-team.com/blog/introduction-kubernetes-architecture/)  
 There are 8 feature which kubernetes promises to fulfil:-
 1. Replication of components
 2. Auto-scaling
@@ -129,6 +129,14 @@ There are 8 feature which kubernetes promises to fulfil:-
 5. Controller manager :- A controller uses apiserver to watch the shared state of the cluster and makes corrective changes to the current state to change it to the desired one. Lots of different type of controller like Replication controller, endpoints controller, namespace controller, and serviceaccounts controller etc.
 6. Kubelet :- kubelet gets the configuration of a pod from the apiserver and ensures that the described containers are up and running. This is the worker service that’s responsible for communicating with the master node.
 7. kube-proxy :- kube-proxy acts as a network proxy and a load balancer for a service on a single worker node. It takes care of the network routing for TCP and UDP packets.
+
+##### Pod lifecycle
+1. Pending :- The Pod has been accepted by the Kubernetes system, but one or more of the Container images has not been created.
+2. Running :- The Pod has been bound to a node, and all of the Containers have been created. At least one Container is still running, or is in the process of starting or restarting.
+3. Succeded :- All Containers in the Pod have terminated in success, and will not be restarted.
+4. Failed :- All Containers in the Pod have terminated, and at least one Container has terminated in failure.
+5. Unknown :- For some reason the state of the Pod could not be obtained, typically due to an error in communicating with the host of the Pod.
+Pod conditions
 
 #### Kubernetes the hard way.
 ##### Step 1
@@ -151,6 +159,7 @@ There are 8 feature which kubernetes promises to fulfil:-
 6. Generate the kube-scheduler client certificate and private key.
 7. Generate the Kubernetes API Server certificate and private key. *Note: static IP address will be included in the list of subject alternative names for the Kubernetes API Server certificate. This will ensure the certificate can be validated by remote clients.*
 8. Generate the service-account certificate and private key. *Note: The Kubernetes Controller Manager leverages a key pair to generate and sign service account tokens.*
+
 ###### Step 3
 1. Generate kubeconfig files for the controller manager, kubelet, kube-proxy, and scheduler clients and the admin user. *Note : Each kubeconfig requires a Kubernetes API Server to connect to. To support high availability the IP address assigned to the external load balancer fronting the Kubernetes API Servers will be used.*
 2. Use kubectl to generate your own kubeconfig and scp the files to their respective places.
@@ -248,17 +257,21 @@ Pods scheduled to a node receive an IP address from the node's Pod CIDR range. A
 
 ### Openfaas.
 [Ref](https://docs.openfaas.com/architecture)
+
 #### Workflow
 ![Architecture-workflow](https://raw.githubusercontent.com/openfaas/faas/master/docs/of-workflow.png)
+
 #### Api Gateway
 ![Architecture-gateway](https://docs.openfaas.com/images/of-conceptual-operator.png)
 When deployed each function creates 1 to many Pods/containers depending on the minimum and maximum scaling parameters requested by the user.
+
 #### Watchdog. 
 1. The OpenFaaS watchdog is responsible for starting and monitoring functions in OpenFaaS. Any binary can become a function through the use of watchdog.
 2. The watchdog becomes an "init process" with an embedded HTTP server written in Golang, it can support concurrent requests, timeouts and healthchecks.
 ![Architecture-Watchdog](https://docs.openfaas.com/architecture/watchdog-modes.png)
 3. Above architecture is for of-watchdog(old version is called classic watchdog).
 4. There are 5 different mode of-watchdog, "http" in which a process is forked when the watchdog starts, we then forward any request incoming to the watchdog to a HTTP port within the container, "serializing" forks one process per request. Multi-threaded. Ideal for retro-fitting a CGI application handler reads entire request into memory from the HTTP request, "streaming" Forks a process per request and can deal with a request body larger than memory capacity - i.e. 512mb VM can process multiple GB of video, "static" This mode starts an HTTP file server for serving static content found at the directory specified by static_path.
+
 #### Autoscaling 
 The API Gateway handles AlertManager alerts through its /system/alert route.The minimum (initial) and maximum replica count can be set at deployment time by adding a label to the function.
 
