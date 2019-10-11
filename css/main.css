@@ -9,10 +9,7 @@ layout: null
   font-family: "GroteskLight";
   src: url("/arm/css/GroteskLight.ttf") format("truetype");
 }
-@font-face {
-  font-family: "AnonymousPro";
-  src: url("/arm/css/AnonymousPro.ttf") format("truetype");
-}
+
 body {
   font-family: 'GroteskLight' , 'Lora', 'Times New Roman', serif;
   font-variant-ligatures: no-common-ligatures;
@@ -37,11 +34,11 @@ p {
   color: #1b2733;
 }
 code {
-  font-family: 'AnonymousPro';
+  font-family: 'GroteskLight';
   line-height: 1.5;
   margin: 30px 0;
   letter-spacing: 0.119em;
-  font-weight: 100;
+  font-weight: 300;
   color: #1b2733;
 }
 h1,h2,h3,h4,h5,h6 {
