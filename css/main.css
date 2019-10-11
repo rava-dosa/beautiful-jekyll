@@ -5,9 +5,15 @@ layout: null
 @import url("pygment_highlights.css");
 
 /* --- General --- */
-
+@font-face {
+  font-family: "GroteskLight";
+  src: url("/arm/css/GroteskLight.ttf") format("truetype");
+}
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'GroteskLight' , 'Lora', 'Times New Roman', serif;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  letter-spacing: 0.119em;
   font-size: 18px;
   color: #404040;
   position: relative;
@@ -17,13 +23,20 @@ body {
   background-attachment: fixed;
   {% endif %}
 }
+
 p {
+  font-family: 'GroteskLight';
   line-height: 1.5;
   margin: 30px 0;
+  letter-spacing: 0.119em;
+  font-weight: 100;
+  color: #1b2733;
 }
+
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-family: 'GroteskLight','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.119em;
 }
 a {
   color: {{ site.link-col }};
