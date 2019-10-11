@@ -703,12 +703,13 @@ pre.highlight, .highlight > pre, td.code pre {
 }
 code table, code table td, code table th, code table tbody, code table tr,
 td.gutter pre {
-  padding: 0;
+  padding: 10px;
   border: none;
   background-color: #fff;
+  color: rgba(0, 0, 0, 0.84);
 }
 .highlight > pre {
-  padding: 0;
+  padding: 10px;
 }
 td.code pre {
   border-width: 0 0 0 2px;
