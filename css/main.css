@@ -9,7 +9,10 @@ layout: null
   font-family: "GroteskLight";
   src: url("/arm/css/GroteskLight.ttf") format("truetype");
 }
-
+@font-face {
+  font-family: "GroteskBold";
+  src: url("/css/GangsterGroteskBold.ttf") format("truetype");
+}
 body {
   font-family: 'GroteskLight' , 'Lora', 'Times New Roman', serif;
   font-variant-ligatures: no-common-ligatures;
@@ -43,7 +46,7 @@ code {
   padding: 10px;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'GroteskLight','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'GroteskBold','GroteskLight','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 0.119em;
 }
