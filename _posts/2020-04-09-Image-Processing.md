@@ -25,7 +25,7 @@ It's 6:54 IST. Thursday. April'09, 2020. The global society is still trying to c
 We should find better ways, money isn't scalable and worth rewarding. We definitely should not hold competitions like [Kellogg-Morgan Stanley Sustainable Investing Challenge](https://www.morganstanley.com/ideas/kellogg-morgan-stanley-sustainable-investing-challenge-2020-finalists) and give first prize to profit off people's dignity. Winner of that competition was an Idea called Dignity Bond - "Outcome-based security designed to help eradicate homelessness through investments in the development of purpose-built social housing". We should replace and delete money altogether. Money isn't evil but money fucks already fucked up society.  
 
 So back to the article, I am still at my college. Students here are still trying to figure out what is going to happen to their internships. Some job offers has been rescinded. Some of us are trying to foresee number of next year internships/job offers.  
-I could have gone at home, but I love my parents and didn't want to be reason of their early demise. In other words like usual to moral highground and stayed in college. There are recurrent moments when I feel I should be at home.
+I could have gone at home, but I love my parents and didn't want to be reason of their early demise. In other words, took moral highground and stayed in college. There are recurrent moments when I feel I should be at home.
 
 ## Danger ☠ ☢ ☣ ⚠ ⚡ 💀
 
