@@ -1,15 +1,15 @@
 ---
 layout: post
-mathjax: true
+mathjax: false
 title: Summary of the book Predators
 subtitle: On Child Abuse 
-tags: [finance]
+tags: [summary, child abuse]
 ---
 
 ## Why ?
 
-Alphas = Male/Female Molester
-Epsilons = he/she Victims
+**Alphas = Male/Female Molester**  
+**Epsilons = he/she Victims**  
 
 1. There is a subgroup of child molester who molest children simply because they are sexually attracted to them.
 2. There are others who molest because they are antisocial or even psychopathic(Psychopathy is traditionally a personality disorder characterized by persistent antisocial behavior, impaired empathy and remorse, and bold, dis-inhibited, and egotistical traits). Anti-social behaviours are actions that harm or lack consideration for the well-being of others. It has also been defined as any type of conduct that violates the basic rights of another person
