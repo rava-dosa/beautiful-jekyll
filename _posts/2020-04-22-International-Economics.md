@@ -83,7 +83,9 @@ This has been solely copied from Naked Economics by charles wheelan.
 ## Fixed and Floating exchange rates.
 
 1. Fixed exchange rates (or currency bands). Fixed or “pegged” exchange rates are a lot like the gold standard, except that there is no gold.
+
 2. Most developed economies have floating exchange rates; currencies are traded on foreign exchange markets, just like a stock exchange
+
 3. The primary drawback of this system is that currency fluctuations create an added layer of uncertainty for firms doing international business. Ford may make huge profits in Europe only to lose money in the foreign exchange markets when it tries to bring the euros back home. So far, exchange rate volatility has proven to be a drawback of floating rates, though not a fatal flaw. International companies can use the financial markets to "**hedge their currency risk**".
 
 ## Curious Case of Argentinian Peso
