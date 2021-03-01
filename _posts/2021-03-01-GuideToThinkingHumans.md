@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Summary of Guide to Thinking Humans
+title: Summary of A Guide for Thinking Humans
 subtitle: By Melanie Mitchell
 tags: [agi, books, summary]
 ---
